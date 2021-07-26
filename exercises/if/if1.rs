@@ -1,13 +1,18 @@
 // if1.rs
 
-// I AM NOT DONE
-
 pub fn bigger(a: i32, b: i32) -> i32 {
     // Complete this function to return the bigger number!
     // Do not use:
     // - another function call
     // - additional variables
     // Execute `rustlings hint if1` for hints
+
+    let mut result = 0;
+    result = a;
+    if result < b {
+        result = b
+    }
+    result
 }
 
 // Don't mind this for now :)
